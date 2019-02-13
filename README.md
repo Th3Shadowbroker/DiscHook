@@ -5,7 +5,7 @@ DiscHook is a basic implementation of the discord-webhook api. DiscHook uses a r
 structure and provides basic JSON support ([org.json](https://github.com/stleary/JSON-java)).
 I've also implemented basic listener/event support.
 
-##### Example implementation
+### Example implementation
 ````java
 DiscordWebhook hook = new DiscordWebhook("YOUR WEBHOOKS URL");
 
@@ -15,7 +15,7 @@ hook.trySendPacket( packet );
 ````
 If you want to learn more about how you can implement DiscHook in your project, checkout the wiki.
 
-##### Maven
+### Maven
 ```xml
 <repository>
     <id>th3shadowbroker-releases</id>
@@ -29,17 +29,17 @@ If you want to learn more about how you can implement DiscHook in your project, 
 </depdency>
 ```
 
-##### Contributing
+### Contributing
 I made this project in my free time and I don't have the time to maintain it actively. Feel free
 to fork this repository and share added features or bug fixes with us through pull-requests.
 
-##### License
+### License
 This project is licensed under the MIT-license.
 
-##### Found a bug or one of the four horsemen?
+### Found a bug or one of the four horsemen?
 Please use the issue-tool to submit bug-reports or feature requests.
 
-##### Contact & support
+### Contact & support
 Any questions, problems or something else? Feel free to contact me via social-media.
 
 [Twitter](https://twitter.com/m4taiori)
