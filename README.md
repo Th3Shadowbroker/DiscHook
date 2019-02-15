@@ -42,7 +42,9 @@ This project is licensed under the MIT-license.
 Please use the issue-tool to submit bug-reports or feature requests.
 
 ### Contact & support
-If you want to support me you can do so through [patreon](https://patreon.com/m4taiori) <3
+If you want to support me you can do so through Patreon <3
+
+[<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="225px">](https://patreon.com/m4taiori)
 
 If you have any questions, problems or something else? Feel free to contact me via social-media.
 
