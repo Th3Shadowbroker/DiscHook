@@ -5,6 +5,8 @@ DiscHook is a basic implementation of the discord-webhook api. DiscHook uses a r
 structure and provides basic JSON support ([org.json](https://github.com/stleary/JSON-java)).
 I've also implemented basic listener/event support.
 
+[Download latest version](https://m4taiori.io/?download=dischook)
+
 ### Example implementation
 ````java
 DiscordWebhook hook = new DiscordWebhook("YOUR WEBHOOKS URL");
