@@ -1,5 +1,5 @@
 ## DiscHook
-![travis-ci-build-status](https://travis-ci.com/Th3Shadowbroker/DiscHook.svg?branch=master)
+[![travis-ci-build-status](https://travis-ci.com/Th3Shadowbroker/DiscHook.svg?branch=master)](https://travis-ci.com/Th3Shadowbroker/DiscHook)
 
 DiscHook is a basic implementation of the discord-webhook api. DiscHook uses a really simple
 structure and provides basic JSON support ([org.json](https://github.com/stleary/JSON-java)).
