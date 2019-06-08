@@ -28,7 +28,7 @@ If you want to learn more about how you can implement DiscHook in your project, 
     <groupId>io.m4taiori.discord</groupId>
     <artifactId>dischook</artifactId>
     <version>1.0.0</version>
-</depdency>
+</dependency>
 ```
 
 ### Contributing
