@@ -26,12 +26,12 @@ import io.m4taiori.discord.dischook.DiscordWebhook;
 import io.m4taiori.discord.dischook.util.DiscordAPIResponse;
 import io.m4taiori.discord.dischook.util.DiscordWebhookPacket;
 
-public class WebhookSendEvent extends WebhookEvent
+public class WebhookSentEvent extends WebhookEvent
 {
 
     private final DiscordAPIResponse response;
 
-    public WebhookSendEvent(DiscordAPIResponse response, DiscordWebhookPacket packet, DiscordWebhook hook)
+    public WebhookSentEvent(DiscordAPIResponse response, DiscordWebhookPacket packet, DiscordWebhook hook)
     {
         super(packet, hook);
         this.response = response;

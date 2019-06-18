@@ -24,7 +24,7 @@ package io.m4taiori.discord.dischook.util;
 
 import io.m4taiori.discord.dischook.DiscordWebhook;
 import io.m4taiori.discord.dischook.events.WebhookPendingEvent;
-import io.m4taiori.discord.dischook.events.WebhookSendEvent;
+import io.m4taiori.discord.dischook.events.WebhookSentEvent;
 import io.m4taiori.discord.dischook.events.WebhookSendingEvent;
 import io.m4taiori.discord.dischook.exceptions.InvalidResponseException;
 import io.m4taiori.discord.dischook.exceptions.QueueResetException;
@@ -71,7 +71,7 @@ public class PacketQueue
             if (response.isSuccess())
             {
                 queueI.remove();
-                hook.getEventManager().post( new WebhookSendEvent(response, packet, hook) );
+                hook.getEventManager().post( new WebhookSentEvent(response, packet, hook) );
             }
             else if (response.isRateLimitExceeded())
             {
