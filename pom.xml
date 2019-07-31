@@ -28,6 +28,13 @@
             <version>20180813</version>
         </dependency>
     </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>maven-central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+        </repository>
+    </repositories
 
     <build>
         <plugins>
