@@ -34,7 +34,7 @@
             <id>maven-central</id>
             <url>https://repo1.maven.org/maven2/</url>
         </repository>
-    </repositories
+    </repositories>
 
     <build>
         <plugins>
