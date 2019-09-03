@@ -1,5 +1,6 @@
 ## DiscHook
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FTh3Shadowbroker%2FDiscHook%2Fbadge&style=flat)](https://actions-badge.atrox.dev/Th3Shadowbroker/DiscHook/goto)
+[![Quality Gate Status](https://sonar.th3shadowbroker.dev/api/project_badges/measure?project=io.m4taiori.discord%3Adischook&metric=alert_status)](https://sonar.th3shadowbroker.dev/dashboard?id=io.m4taiori.discord%3Adischook)
 
 DiscHook is a basic implementation of the discord-webhook api. DiscHook uses a really simple
 structure and provides basic JSON support ([org.json](https://github.com/stleary/JSON-java)).
